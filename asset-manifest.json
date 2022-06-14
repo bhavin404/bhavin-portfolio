@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/bhavin-portfolio/static/css/main.2f865d49.chunk.css",
+    "main.js": "/bhavin-portfolio/static/js/main.11d02194.chunk.js",
+    "main.js.map": "/bhavin-portfolio/static/js/main.11d02194.chunk.js.map",
+    "runtime-main.js": "/bhavin-portfolio/static/js/runtime-main.222b0b4e.js",
+    "runtime-main.js.map": "/bhavin-portfolio/static/js/runtime-main.222b0b4e.js.map",
+    "static/js/2.90f56ae3.chunk.js": "/bhavin-portfolio/static/js/2.90f56ae3.chunk.js",
+    "static/js/2.90f56ae3.chunk.js.map": "/bhavin-portfolio/static/js/2.90f56ae3.chunk.js.map",
+    "index.html": "/bhavin-portfolio/index.html",
+    "static/css/main.2f865d49.chunk.css.map": "/bhavin-portfolio/static/css/main.2f865d49.chunk.css.map",
+    "static/js/2.90f56ae3.chunk.js.LICENSE.txt": "/bhavin-portfolio/static/js/2.90f56ae3.chunk.js.LICENSE.txt",
+    "static/media/Capture.d3b81710.PNG": "/bhavin-portfolio/static/media/Capture.d3b81710.PNG",
+    "static/media/address.a01cb8cc.png": "/bhavin-portfolio/static/media/address.a01cb8cc.png",
+    "static/media/bhavin.039533fc.jpeg": "/bhavin-portfolio/static/media/bhavin.039533fc.jpeg",
+    "static/media/bhavin.aa0015ae.jpg": "/bhavin-portfolio/static/media/bhavin.aa0015ae.jpg",
+    "static/media/email.a49e0158.png": "/bhavin-portfolio/static/media/email.a49e0158.png",
+    "static/media/logo.8776238b.jpg": "/bhavin-portfolio/static/media/logo.8776238b.jpg",
+    "static/media/moon.3bea3d39.png": "/bhavin-portfolio/static/media/moon.3bea3d39.png",
+    "static/media/phone.d90a6d23.png": "/bhavin-portfolio/static/media/phone.d90a6d23.png",
+    "static/media/sun.f794832a.png": "/bhavin-portfolio/static/media/sun.f794832a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.222b0b4e.js",
+    "static/js/2.90f56ae3.chunk.js",
+    "static/css/main.2f865d49.chunk.css",
+    "static/js/main.11d02194.chunk.js"
+  ]
+}
