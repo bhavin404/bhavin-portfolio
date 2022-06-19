@@ -7,26 +7,12 @@ export const products = [
   {
     id: 2,
     img: "",
-    link: "https://bhavin404.github.io/skill-greek/",
+    link: "https://bhavin404.github.io/movie-search-site/",
   },
   {
     id: 3,
     img: "",
-    link: "https://bhavin404.github.io/skill-greek/",
+    link: "https://enchanting-medovik-d99356.netlify.app/",
   },
-  {
-    id: 4,
-    img: "",
-    link: "http://lama.dev",
-  },
-  {
-    id: 5,
-    img: "",
-    link: "http://lama.dev",
-  },
-  {
-    id: 6,
-    img: "",
-    link: "http://lama.dev",
-  },
+  
 ];
