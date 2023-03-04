@@ -1,9 +1,8 @@
 import "./product.css";
 import { BrowserRouter as Router,Link } from "react-router-dom";
-import capture from "../../img/Capture.PNG"
+import capture from "../../img/skillgreek.png"
 
 const Product = ({img,link}) => {
-  console.log("linksss",img)
   return (
     <div className="p">
       <div className="p-browser">
@@ -14,7 +13,7 @@ const Product = ({img,link}) => {
       {/* <Router> */}
       {/* <Link to="https://bhavin404.github.io/skill-greek/"> */}
         <a href={link} target="_blank" rel="noreferrer">
-        <h1 className="click-here">Click here</h1>
+        <img className="project-img" src={img}></img>
       </a>
       {/* </Link> */}
       {/* </Router> */}
