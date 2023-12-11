@@ -30,6 +30,15 @@
   .pl {
     padding: 10px;
   }
+  
+  .pl-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
 
   .pl-texts {
     width: 100%;

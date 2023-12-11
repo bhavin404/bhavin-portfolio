@@ -1,6 +1,6 @@
 import "./about.css";
 import Award from "../../img/logo.jpg";
-import bhavin from "../../img/bhavin.jpeg";
+import bhavin from "../../img/bhavin.png";
 
 
 const About = () => {
@@ -19,20 +19,22 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+        "In the realm of design and code, I sculpt masterpieces."
         </p>
         <p className="a-desc">
-          Hello Mr/Ms Reader, My Name is Bhavin pun, I am a self learner web developer and a person
-          who loves to create new ideas in to a form of website or app, If you have any kind of idea
-          or website then I can be the person to help you with it.
-        </p>
+        Hey there! 👋 I'm Bhavin, a UI/UX designer and front-end developer with 3+ years of experience in Next.js, React.js, and more.
+
+<br/> <br />Crafting standout digital experiences: from sleek UI/UX design to robust front-end development. Let's collaborate and transform your vision into reality. Reach out, let's craft something amazing together!</p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
             <h4 className="a-award-title">My Skills</h4>
             <p className="a-award-desc">
-              Html, Css, Bootstrap, JavaScript, React.js, Next.js
+              Ui/Ux Design, Html, Css, Bootstrap, Tailwind, JavaScript, React.js, Next.js
+            </p>
+            <h4 className="a-award-title">Tools</h4>
+            <p className="a-award-desc">
+              Figma, Vs Code, Github, Bitbucket, Trello.
             </p>
           </div>
         </div>

@@ -12,24 +12,44 @@ const Contact = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
-        formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true)
+    const endpoint = "https://formspree.io/f/mknldqpd";
+
+    const formData = new FormData(e.target);
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
         },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+      });
+
+      if (response.ok) {
+        setDone(true);
+      } else {
+        console.error("Failed to submit form");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
+    // emailjs
+    //   .sendForm(
+    //     "service_rrvnzco",
+    //     "template_3v5nih4",
+    //     formRef.current,
+    //     "user_DrriDPTGKO2Zj4RDXCA6W"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       setDone(true)
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
   };
 
   return (
@@ -47,10 +67,10 @@ const Contact = () => {
               <img className="c-icon" src={Email} alt="" />
               bhavinpun1@gmail.com
             </div>
-            <div className="c-info-item">
+            {/* <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
               106,kailash chhaya apt, nutan nagar, vapi, Gujarata.
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="c-right">
@@ -59,12 +79,12 @@ const Contact = () => {
             freelancing if the right project comes along. me.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
-            <button>Submit</button>
-            {done && "Thank you..."}
+            <input style={{backgroundColor: darkMode && "#333",color: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" />
+            <input style={{backgroundColor: darkMode && "#333",color:darkMode && "#fff"}} type="text" placeholder="Subject" name="user_subject" />
+            <input style={{backgroundColor: darkMode && "#333" ,color:darkMode && "#fff"}} type="text" placeholder="Email" name="user_email" />
+            <textarea style={{backgroundColor: darkMode && "#333" ,color:darkMode && "#fff"}} rows="5" placeholder="Message" name="message" />
+            <button>Submit</button> <br />
+            {done && "Thank you!, your message has been received at bhavinpun1@gmail.com"}
           </form>
         </div>
       </div>
