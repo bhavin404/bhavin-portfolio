@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/bhavin-portfolio/static/css/main.18c953d3.chunk.css",
+    "main.js": "/bhavin-portfolio/static/js/main.0705a64a.chunk.js",
+    "main.js.map": "/bhavin-portfolio/static/js/main.0705a64a.chunk.js.map",
+    "runtime-main.js": "/bhavin-portfolio/static/js/runtime-main.91f4a40e.js",
+    "runtime-main.js.map": "/bhavin-portfolio/static/js/runtime-main.91f4a40e.js.map",
+    "static/js/2.33e65dbb.chunk.js": "/bhavin-portfolio/static/js/2.33e65dbb.chunk.js",
+    "static/js/2.33e65dbb.chunk.js.map": "/bhavin-portfolio/static/js/2.33e65dbb.chunk.js.map",
+    "index.html": "/bhavin-portfolio/index.html",
+    "static/css/main.18c953d3.chunk.css.map": "/bhavin-portfolio/static/css/main.18c953d3.chunk.css.map",
+    "static/js/2.33e65dbb.chunk.js.LICENSE.txt": "/bhavin-portfolio/static/js/2.33e65dbb.chunk.js.LICENSE.txt",
+    "static/media/Trekzen.8830e0f2.jpeg": "/bhavin-portfolio/static/media/Trekzen.8830e0f2.jpeg",
+    "static/media/address.a01cb8cc.png": "/bhavin-portfolio/static/media/address.a01cb8cc.png",
+    "static/media/bhavin.0f7ac1f7.png": "/bhavin-portfolio/static/media/bhavin.0f7ac1f7.png",
+    "static/media/bhavin.aa0015ae.jpg": "/bhavin-portfolio/static/media/bhavin.aa0015ae.jpg",
+    "static/media/email.a49e0158.png": "/bhavin-portfolio/static/media/email.a49e0158.png",
+    "static/media/foodieUi.3f43ab31.jpg": "/bhavin-portfolio/static/media/foodieUi.3f43ab31.jpg",
+    "static/media/foodieUiMob.70239c6f.png": "/bhavin-portfolio/static/media/foodieUiMob.70239c6f.png",
+    "static/media/gam-1.c7b1e04d.png": "/bhavin-portfolio/static/media/gam-1.c7b1e04d.png",
+    "static/media/gamingUi.673357f2.png": "/bhavin-portfolio/static/media/gamingUi.673357f2.png",
+    "static/media/logo.8776238b.jpg": "/bhavin-portfolio/static/media/logo.8776238b.jpg",
+    "static/media/memory-game.ef34f51b.png": "/bhavin-portfolio/static/media/memory-game.ef34f51b.png",
+    "static/media/moon.3bea3d39.png": "/bhavin-portfolio/static/media/moon.3bea3d39.png",
+    "static/media/movie-search.0f37abde.png": "/bhavin-portfolio/static/media/movie-search.0f37abde.png",
+    "static/media/movieDb.93596def.jpeg": "/bhavin-portfolio/static/media/movieDb.93596def.jpeg",
+    "static/media/phone.d90a6d23.png": "/bhavin-portfolio/static/media/phone.d90a6d23.png",
+    "static/media/skillgreek.22f40b7e.png": "/bhavin-portfolio/static/media/skillgreek.22f40b7e.png",
+    "static/media/sun.f794832a.png": "/bhavin-portfolio/static/media/sun.f794832a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91f4a40e.js",
+    "static/js/2.33e65dbb.chunk.js",
+    "static/css/main.18c953d3.chunk.css",
+    "static/js/main.0705a64a.chunk.js"
+  ]
+}
