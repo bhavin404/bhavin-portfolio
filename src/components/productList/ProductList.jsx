@@ -33,7 +33,10 @@ const ProductList = (imgUrl) => {
       </div>
       <div className="pl-list">
         {designs.map((item) => (
-          <Product key={item.id} img={item.img} 
+          <Product
+           key={item.id}
+            img={item.img} 
+            
           fullImg={fullImage} />
         ))}
       </div>

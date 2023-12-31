@@ -4,6 +4,11 @@ import bhavin from "../../img/bhavin.png";
 
 
 const About = () => {
+
+ 
+  
+
+
   return (
     <div className="a">
       <div className="a-left">
@@ -12,7 +17,7 @@ const About = () => {
           <img
             src={bhavin}
             alt=""
-            className="a-img"
+            className="a-img flip"
           />
         </div>
       </div>

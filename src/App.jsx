@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
@@ -9,6 +9,24 @@ import { ThemeContext } from "./context";
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry)=> {
+       console.log(entry)
+       if(entry.isIntersecting){
+         entry.target.classList.add('show')
+       }else{
+         entry.target.classList.remove('show')
+       }
+      })
+   })
+   
+   const hiddenElement = document.querySelectorAll('.hidden')
+   hiddenElement.forEach((el)=>observer.observe(el))
+  }, [])
+  
+
   return (
     <div
       style={{
@@ -17,7 +35,7 @@ const App = () => {
       }}
     >
       <Toggle />
-      <Intro />
+      <Intro  />
       <About />
       <ProductList />
       <Contact />

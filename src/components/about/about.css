@@ -17,6 +17,13 @@
   flex: 1;
 }
 
+.flip{
+transition: transform 1s;
+transform-style: preserve-3d;
+}
+.flip:hover{
+  transform: rotateY(180deg);
+}
 .a-card.bg {
   position: absolute;
   top: 50px;

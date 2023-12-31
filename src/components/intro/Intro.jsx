@@ -2,14 +2,24 @@ import "./intro.css";
 import Me from "../../img/bhavin.jpg";
 
 const Intro = () => {
+
+  
+  
+
   return (
     <div className="i">
       <div className="i-left">
-        <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, My name is</h2>
-          <h1 className="i-name">Bhavin pun</h1>
-          <div className="i-title">
-            <div className="i-title-wrapper">
+        <div className="i-left-wrapper hidden">
+          <h2 className="i-intro description hidden ">Hello, My name is</h2>
+          <h1 className="i-name description hidden">Bhavin pun</h1>
+         
+          <p className="i-desc description hidden">
+            I design and develop services for customers of all sizes,
+            specializing in creating stylish, modern websites, web services and
+            online stores.
+          </p>
+          <div className="i-title description hidden">
+            <div className="i-title-wrapper ">
               <div className="i-title-item">React.js</div>
               <div className="i-title-item">Next.js</div>
               <div className="i-title-item">Html</div>
@@ -18,11 +28,6 @@ const Intro = () => {
 
             </div>
           </div>
-          <p className="i-desc">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
-          </p>
         </div>
         <svg
           width="75"
@@ -82,7 +87,7 @@ const Intro = () => {
         </svg>
       </div>
       <div className="i-right">
-        <div className="i-bg">
+        <div className="i-bg ">
         <img src={Me} alt="" className="i-img" />
 
         </div>
