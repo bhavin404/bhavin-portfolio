@@ -6,9 +6,9 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, My name is</h2>
-          <h1 className="i-name">Bhavin pun</h1>
-          <div className="i-title">
+          <h2 className="i-intro about-me hidden">Hello, My name is</h2>
+          <h1 className="i-name about-me hidden">Bhavin pun</h1>
+          <div className="i-title about-me hidden">
             <div className="i-title-wrapper">
               <div className="i-title-item">React.js</div>
               <div className="i-title-item">Next.js</div>
@@ -18,7 +18,7 @@ const Intro = () => {
 
             </div>
           </div>
-          <p className="i-desc">
+          <p className="i-desc about-me hidden">
             I design and develop services for customers of all sizes,
             specializing in creating stylish, modern websites, web services and
             online stores.

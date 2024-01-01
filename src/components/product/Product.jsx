@@ -5,7 +5,7 @@ import capture from "../../img/skillgreek.png"
 const Product = ({img,link,fullImg}) => {
   console.log("linksss",fullImg)
   return (
-    <div className="p">
+    <div className="p about-me hidden">
       <div className="p-browser">
         <div className="p-circle"></div>
         <div className="p-circle"></div>
